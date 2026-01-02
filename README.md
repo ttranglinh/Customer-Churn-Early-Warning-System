@@ -1,7 +1,7 @@
 ## KKBox Customer Churn Early-Warning System
 
 ## Goal
-To build a reproducible data pipeline from raw ingestion to decision-ready datasets for churn modelling.
+To build a reproducible data pipeline for weekly churn early-warning system that answers: “Which users should we proactively intervene with this week?”.
 
 ## Project structure
 - `sql/` PostgreSQL schema and table DDL, reset scripts
