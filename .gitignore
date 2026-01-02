@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+**/kaggle.json
+
+# Data (do not commit raw datasets)
+data/
+KKBox/
+*.csv
+*.zip
+*.scala
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# config.
+ingestion/config.py
+
+# Others
+Linkedln Posts/
+*.gif
+*.mp4
