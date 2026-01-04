@@ -54,13 +54,13 @@ msno may have multiple log in date.
 |------|---------|------------|----------------------|
 | msno | string | User identifier | Very high cardinality |
 | date | integer (YYYYMMDD) | Activity date | Requires date parsing |
-| num_25 | integer | Plays ≥25% and <50% | Count metric |
-| num_50 | integer | Plays ≥50% and <75% | Count metric |
-| num_75 | integer | Plays ≥75% and <98.5% | Count metric |
-| num_985 | integer | Plays ≥98.5% | Count metric |
-| num_100 | integer | Completed plays | Count metric |
-| num_unq | integer | Unique songs played | Per day |
-| total_secs | numeric | Total listening time | Seconds, fractional |
+| num_25 | integer |  # of songs played less than 25% of the song length | Count metric |
+| num_50 | integer | # of songs played between 25% to 50% of the song length | Count metric |
+| num_75 | integer | # of songs played between 50% to 75% of of the song length | Count metric |
+| num_985 | integer | # of songs played between 75% to 98.5% of the song length | Count metric |
+| num_100 | integer | # of songs played over 98.5% of the song length | Count metric |
+| num_unq | integer | # of unique songs played | Per day |
+| total_secs | numeric | total seconds played | Seconds, fractional |
 
 ## raw.train (Churn Labels)
 
