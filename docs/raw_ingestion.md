@@ -1,4 +1,4 @@
-# Raw Ingestion (KKBox)
+# Raw Ingestion
 
 ## Purpose
 The `raw` schema preserves source data exactly as received. No business logic.
